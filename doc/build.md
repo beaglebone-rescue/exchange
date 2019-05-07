@@ -59,7 +59,9 @@ If `$JAVA_HOME` is not present, open your `.bashrc` file:
 
     $ touch ~/.bashrc
     $ gedit ~/.bashrc
+    
 
+* For OpenJDK on Beaglebone add: `export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-armhf
 * For OpenJDK add: `export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64`
 * For Oracle JDK add: `export JAVA_HOME=/usr/lib/jvm/java-8-oracle`
 * For your current *alternative* JDK add: `export JAVA_HOME=/usr/lib/jvm/default-java`  
